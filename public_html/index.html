@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dynamic Data Example</title>
+</head>
+<body>
+    <header>
+        <h1>Dynamic Data Example</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Followers</h2>
+            <p>Number of followers: <span id="numFollowers">Loading...</span></p>
+            <p>Latest follower: <span id="latestFollowerUsername">Loading...</span></p>
+        </section>
+        <section>
+            <h2>Subscribers</h2>
+            <p>Number of subscribers: <span id="numSubscribers">Loading...</span></p>
+            <p>Latest subscriber: <span id="latestSubscriberUsername">Loading...</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Your Corporation</p>
+    </footer>
+    <!-- Include Axios from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
