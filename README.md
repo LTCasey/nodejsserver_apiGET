@@ -1,3 +1,5 @@
+This is a ChatGPT response, there will be a better wiki later...maybe. 
+
 Certainly! Here's an updated GitHub README that includes information about setting up your Node.js server using Axios, Express, and CORS, based on your `server.js` file:
 
 ```markdown
@@ -77,3 +79,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 This README provides an overview of how to set up and use your Node.js server with Axios, Express, and CORS and allows others to understand and contribute to your project easily.
+
+Rights Reserved 2023 LakeTime Live Limited Liability Corporation 
