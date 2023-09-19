@@ -21,6 +21,16 @@
             <p>Number of subscribers: <span id="numSubscribers">Loading...</span></p>
             <p>Latest subscriber: <span id="latestSubscriberUsername">Loading...</span></p>
         </section>
+        <!-- Add this form element within the <main> section -->
+        <section>
+            <h2>Change API Endpoint</h2>
+            <form id="apiEndpointForm">
+                <label for="apiEndpoint">New API Endpoint:</label>
+                <input type="text" id="apiEndpoint" name="apiEndpoint" placeholder="Enter new API endpoint" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
     </main>
     <footer>
         <p>© 2023 Your Corporation</p>
