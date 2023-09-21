@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed:
 3. Install the project dependencies:
 
    ```bash
-   npm install
+   npm install axios cors express
    ```
 
 ## Usage
